@@ -107,6 +107,8 @@ public class LeadController {
 			List<Lead> leads = leadService.getAllLead();
 			model.addAttribute("leads",leads);
 			return "list_leads";
+
+			//Happyyyyy
 			
 
 		}
